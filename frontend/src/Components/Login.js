@@ -86,11 +86,19 @@ const Login = () => {
                     
                 </Box>
             </form>
+            <Box maxWidth={400}
+                    display={"flex"} flexDirection={"column"} alignItems="center" justifyContent={"center"}
+                    boxShadow="10px 10px 20px #ccc"
+                    padding={2}
+                    margin="auto"
+                    marginTop={2}
+                    borderRadius={5}>
             <Link href="" 
                      onClick= {() => navigate("/forgetpwd")}
                     // LinkComponent={Link} to="/forgetpwd"
                     > forgot Password
 </Link>
+</Box>
         </div>
     )
 }

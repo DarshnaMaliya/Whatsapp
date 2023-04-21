@@ -15,11 +15,11 @@ const Header = () => {
                 Whatsapp Integration
             </Typography>
             
-            <Box display={"flex"} marginLeft={"auto"}>
+            <Box display={"flex"} marginLeft={85}>
                 { !isLoggedIn && <>
                 <Button LinkComponent={Link} to="/login" 
                 variant="contained" 
-                sx={{margin:1, borderRadius:10}} 
+                sx={{margin:1, borderRadius:3}} 
                 color="warning">Login</Button>
 
                 <Button LinkComponent={Link} to="/login" 
